@@ -1,0 +1,21 @@
+name: physics-guided_SfT
+channels:
+  - pytorch
+  - nvidia
+  - defaults
+dependencies:
+  - python=3.9
+  - numpy
+  - pytorch
+  - pytorch-cuda=12.1
+  - torchvision
+  - ninja
+  - tensorboard
+  - statsmodels
+  - natsort
+  - pip:
+      - "git+https://github.com/NVlabs/nvdiffrast.git@v0.3.1"
+      - "git+https://github.com/facebookresearch/pytorch3d.git@v0.7.6"
+      - ema-pytorch
+      - openmesh
+      - segmentation-models-pytorch

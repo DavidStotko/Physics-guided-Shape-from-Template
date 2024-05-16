@@ -1,0 +1,47 @@
+{
+    "scene": "R5",
+    "n_images": 49,
+    "mesh_file": "../data/R5/0_R5_quad.obj",
+    "mesh_size": 0.95,
+    "texture_file": "../data/R5/texture.png",
+    "image_files": "../data/R5/rgbs/rgb_",
+    "mask_files": "../data/R5/masks/mask_",
+    "result_point_cloud_files": "../evaluation/R5/ours/point_cloud_",
+    "result_chamfer_file": "../evaluation/R5/chamfer_distances_ours.pt",
+    "ground_truth_dir": "../evaluation/R5/ground_truth/",
+    "camera_position": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "camera_forward": [
+        0.0,
+        0.0,
+        1.0
+    ],
+    "camera_up": [
+        0.0,
+        1.0,
+        0.0
+    ],
+    "optical_center": [
+        636.409,
+        369.856
+    ],
+    "focal_length": [
+        642.789,
+        629.999
+    ],
+    "image_size": [
+        720,
+        1280
+    ],
+    "lower_left_corner": [
+        0,
+        0
+    ],
+    "upper_right_corner": [
+        720,
+        1280
+    ]
+}
