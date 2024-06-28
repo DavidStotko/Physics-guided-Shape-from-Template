@@ -2,7 +2,7 @@
   <h1 align="center">Physics-guided Shape-from-Template: <br> Monocular Video Perception through Neural Surrogate Models</h1>
   <h3 align="center"> David Stotko · Nils Wandel · Reinhard Klein <br> University of Bonn </h3>
   <h3 align="center">CVPR 2024</h3>
-  <h3 align="center"> <a href="https://arxiv.org/abs/2311.12796">Paper</a> &nbsp; | &nbsp; <a href="https://cg.cs.uni-bonn.de/publication/stotko2024-Physics-guided-SfT">Project Page</a> &nbsp; | &nbsp; <a href="https://www.youtube.com/watch?v=o0qs_oip7F4">Video</a> </h3>
+  <h3 align="center"> <a href="https://openaccess.thecvf.com/content/CVPR2024/html/Stotko_Physics-guided_Shape-from-Template_Monocular_Video_Perception_through_Neural_Surrogate_Models_CVPR_2024_paper.html">CVPR Paper</a> &nbsp; | &nbsp; <a href="https://cg.cs.uni-bonn.de/publication/stotko2024-Physics-guided-SfT">Project Page</a> &nbsp; | &nbsp; <a href="https://www.youtube.com/watch?v=o0qs_oip7F4">Video</a> &nbsp; | &nbsp; <a href="https://arxiv.org/abs/2311.12796">arXiv</a> </h3>
   <div align="center"></div>
 </p>
 
