@@ -72,11 +72,13 @@ Note that the results might vary for each run.
 
 If you use this code for your project, please cite the following publication:
 ```
-@article{stotko2023physics,
-  title={Physics-guided Shape-from-Template: Monocular Video Perception through Neural Surrogate Models},
-  author={Stotko, David and Wandel, Nils and Klein, Reinhard},
-  journal={arXiv preprint arXiv:2311.12796},
-  year={2023}
+@InProceedings{Stotko_2024_CVPR,
+    author    = {Stotko, David and Wandel, Nils and Klein, Reinhard},
+    title     = {Physics-guided Shape-from-Template: Monocular Video Perception through Neural Surrogate Models},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2024},
+    pages     = {11895-11904}
 }
 ```
 
