@@ -85,3 +85,7 @@ If you use this code for your project, please cite the following publication:
 ## License
 
 This software is provided under MIT license. See [LICENSE](LICENSE) for more information.
+
+## Acknowledgements
+
+This work has been funded by the DFG project KL 1142/11-2 (DFG Research Unit FOR 2535 Anticipating Human Behavior), by the Federal Ministry of Education and Research of Germany and the state of North-Rhine Westphalia as part of the Lamarr-Institute for Machine Learning and Artificial Intelligence and the InVirtuo 4.0 project, and additionally by the Federal Ministry of Education and Research under grant no. 01IS22094E WEST-AI.
