@@ -36,7 +36,7 @@ conda env create --name physics-guided_SfT --file=environment.yml
 
 To perform a 3D reconstruction, the method needs to be provided with a $32 \times 32$ grid mesh (obj file) of the first frame with sorted vertices and uv-coordinates, a corresponding texture file, as well as RGB and mask image files of the video sequence.
 All paths and additional information about camera properties are listed in a ```json``` file that is given as a command line argument to the program.
-Moreover, you need to provide a neural network which can be downloaded from [here](https://uni-bonn.sciebo.de/s/GTKeqlmTcWWqmoy) or you can train one yourself as described in the [section](#training-a-network) below.
+Moreover, you need to provide a neural network which can be downloaded from [Hugging Face](https://huggingface.co/WestAI-SC/Physics-guided-Shape-from-Template), [Sciebo](https://uni-bonn.sciebo.de/s/GTKeqlmTcWWqmoy) or you can train one yourself as described in the [section](#training-a-network) below.
 Make sure to move the network file into the lowest subdirectory of ```./code/logger```.
 
 This method was evaluated on the [ϕ-SfT](https://4dqv.mpi-inf.mpg.de/phi-SfT/) real dataset and corresponding option files are given in ```./code/scenes/```.
