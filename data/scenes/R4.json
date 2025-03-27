@@ -1,0 +1,62 @@
+{
+    "scene": "R4",
+    "n_images": 36,
+    "mesh_file": "../data/R4/0_R4_quad.obj",
+    "mesh_size": 0.95,
+    "texture_file": "../data/R4/texture.png",
+    "image_files": "../data/R4/rgbs/",
+    "mask_files": "../data/R4/masks/",
+    "background_file": "../data/backgrounds/main_building.jpg",
+    "result_point_cloud_files": "../evaluation/R4/ours/",
+    "result_chamfer_file": "../evaluation/R4/chamfer_distances_ours.pt",
+    "ground_truth_dir": "../evaluation/R4/ground_truth/",
+    "camera_positions": [
+        [
+            0.0,
+            0.0,
+            0.0
+        ]
+    ],
+    "camera_directions": [
+        [
+            0.0,
+            0.0,
+            1.0
+        ]
+    ],
+    "camera_ups": [
+        [
+            0.0,
+            1.0,
+            0.0
+        ]
+    ],
+    "optical_centers": [
+        [
+            554.778,
+            962.134
+        ]
+    ],
+    "focal_lengths": [
+        [
+            944.575,
+            971.522
+        ]
+    ],
+    "image_size": [
+        1080,
+        1920
+    ],
+    "lower_left_corners": [
+        [
+            50,
+            300
+        ]
+    ],
+    "upper_right_corners": [
+        [
+            950,
+            1350
+        ]
+    ]
+}
