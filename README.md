@@ -40,8 +40,11 @@ Moreover, you need to provide a neural network which can be downloaded from [Hug
 Make sure to move the network file into the lowest subdirectory of ```./code/logger```.
 
 This method was evaluated on the [ϕ-SfT](https://4dqv.mpi-inf.mpg.de/phi-SfT/) real dataset and corresponding option files are given in ```./code/scenes/```.
-To reproduce the results, make sure to download the dataset, create a $32 \times 32$ template mesh grid with the properties described above (note that the cloth is always held at the two corner vertices with indices 0 and 992) and set the paths in the ```json``` scene files.
+To reproduce the results, make sure to download the dataset and move the data into the corresponding directories.
+The template meshes for the 9 scenes are already provided in the repository.
+If you want to use different template meshes, they have to be a $32 \times 32$ mesh grid with the properties described above (note that the cloth is always held at the two corner vertices with indices 0 and 992) and set the paths in the ```json``` scene files.
 Pytorch files with sample points on the ground truth surface need to be provided for evaluation.
+The data for scene R1 is provided as a ready-to-use example.
 The reconstruction quality heavily depends on the template and results might deviate significantly.
 In order to evaluate all scenes at once, run the command:
 ``` bash
