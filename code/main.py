@@ -364,7 +364,7 @@ class Optimization():
         if self.frame_counter == self.frames_per_epoch:
             self.chamfer_distance = torch.tensor([0.0])
             with torch.no_grad():
-                if self.evaluate and self.epoch_counter == 250:
+                if self.evaluate:
                     self.chamfer_distance = evaluation.computeChamferDistance(self.point_clouds["ground_truth"], self.point_clouds["ours"], 0, self.frame_counter + 1, self.point_clouds["lengths"])
                     self.chamfer_distances_epochs[self.epoch_counter] = self.chamfer_distance
             
@@ -430,6 +430,7 @@ def main():
         opt.printQuantities()
         
         if evaluate:
+            print(opt.chamfer_distances_epochs)
             torch.save(opt.chamfer_distances_epochs, scene["result_chamfer_file"])
         
         time2 = time.perf_counter()
